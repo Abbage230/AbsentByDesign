@@ -6,6 +6,7 @@
     "absentbydesign:trapdoor_andesite",
     "absentbydesign:trapdoor_diorite",
     "absentbydesign:trapdoor_bricks",
+    "absentbydesign:trapdoor_mud_bricks",
     "absentbydesign:trapdoor_stone_bricks",
     "absentbydesign:trapdoor_blackstone",
     "absentbydesign:trapdoor_blackstone_bricks",
@@ -14,6 +15,7 @@
     "absentbydesign:trapdoor_purpur",
     "absentbydesign:trapdoor_quartz",
     "absentbydesign:gate_purpur",
+    "absentbydesign:gate_mud_bricks",
     "absentbydesign:gate_prismarine_dark",
     "absentbydesign:gate_prismarine_brick",
     "absentbydesign:gate_prismarine",
@@ -245,6 +247,8 @@
     "absentbydesign:wall_obsidian",
     "absentbydesign:wall_stonebrick_cracked",
     "absentbydesign:wall_prismarine_bricks",
-    "absentbydesign:wall_dark_prismarine"
+    "absentbydesign:wall_dark_prismarine",
+    "absentbydesign:slab_packed_mud",
+    "absentbydesign:stairs_packed_mud"
   ]
 }
