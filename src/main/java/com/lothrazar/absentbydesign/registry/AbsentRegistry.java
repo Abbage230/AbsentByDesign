@@ -117,8 +117,8 @@ public class AbsentRegistry {
       //??mangrove log?
       reg.register("fence_mangrove", createFence(Blocks.CHERRY_LOG, Block.Properties.of()));
       reg.register("fence_cherry", createFence(Blocks.CHERRY_LOG, Block.Properties.of()));
-      
-      
+
+
       //
       //                SLABS
       //
@@ -238,6 +238,7 @@ public class AbsentRegistry {
       reg.register("slab_ochre_froglight", createSlab(Block.Properties.of().pushReaction(PushReaction.DESTROY).lightLevel(s -> 15), Blocks.OCHRE_FROGLIGHT));
       reg.register("slab_pearlescent_froglight", createSlab(Block.Properties.of().pushReaction(PushReaction.DESTROY).lightLevel(s -> 15), Blocks.PEARLESCENT_FROGLIGHT));
       reg.register("slab_verdant_froglight", createSlab(Block.Properties.of().pushReaction(PushReaction.DESTROY).lightLevel(s -> 15), Blocks.VERDANT_FROGLIGHT));
+      reg.register("slab_gold", createSlab(Block.Properties.of(), Blocks.GOLD_BLOCK));
       //
       //                STAIRS
       //
@@ -357,6 +358,7 @@ public class AbsentRegistry {
       reg.register("stairs_ochre_froglight", createStair(Block.Properties.of().pushReaction(PushReaction.DESTROY).lightLevel(s -> 15), Blocks.OCHRE_FROGLIGHT));
       reg.register("stairs_pearlescent_froglight", createStair(Block.Properties.of().pushReaction(PushReaction.DESTROY).lightLevel(s -> 15), Blocks.PEARLESCENT_FROGLIGHT));
       reg.register("stairs_verdant_froglight", createStair(Block.Properties.of().pushReaction(PushReaction.DESTROY).lightLevel(s -> 15), Blocks.VERDANT_FROGLIGHT));
+      reg.register("stairs_gold", createStair(Block.Properties.of(), Blocks.GOLD_BLOCK));
       //
       //                WALLS
       //
@@ -447,9 +449,10 @@ public class AbsentRegistry {
       reg.register("wall_reinforced_deepslate", createWall(Block.Properties.of(), Blocks.REINFORCED_DEEPSLATE));
       reg.register("wall_cherry_planks", createWall(Block.Properties.of(), Blocks.CHERRY_PLANKS));
       reg.register("wall_cherry_stripped_log", createWall(Block.Properties.of(), Blocks.STRIPPED_CHERRY_LOG));
-      reg.register("wall_cherry_log", createWall(Block.Properties.of(), Blocks.CHERRY_LOG)); 
+      reg.register("wall_cherry_log", createWall(Block.Properties.of(), Blocks.CHERRY_LOG));
       reg.register("wall_bamboo_planks", createWall(Block.Properties.of(), Blocks.STRIPPED_BAMBOO_BLOCK));
-      reg.register("wall_bamboo_mosaic", createWall(Block.Properties.of(), Blocks.BAMBOO_MOSAIC)); 
+      reg.register("wall_bamboo_mosaic", createWall(Block.Properties.of(), Blocks.BAMBOO_MOSAIC));
+      reg.register("wall_gold", createWall(Block.Properties.of(), Blocks.GOLD_BLOCK));
       //
       //
       //                GATE
