@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "absentbydesign:block/slab_deepslate" },
+        "type=top": { "model": "absentbydesign:block/slab_deepslate_upper" },
+        "type=double": { "model": "block/deepslate" }
+    }
+}

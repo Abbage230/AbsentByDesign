@@ -1,6 +1,8 @@
 {
 	"replace": false,
 	"values": [
+  "absentbydesign:wall_deepslate",
+	
 	  "absentbydesign:wall_cherry_planks",
   	  "absentbydesign:wall_cherry_stripped_log",
 	  "absentbydesign:wall_cherry_log",

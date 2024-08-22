@@ -1,6 +1,11 @@
 {
   "replace": false,
   "values": [
+  "absentbydesign:slab_deepslate",
+  "absentbydesign:stairs_deepslate",
+  "absentbydesign:wall_deepslate",
+
+  
     "absentbydesign:trapdoor_stone",
     "absentbydesign:trapdoor_granite",
     "absentbydesign:trapdoor_andesite",

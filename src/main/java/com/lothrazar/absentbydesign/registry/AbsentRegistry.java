@@ -229,6 +229,7 @@ public class AbsentRegistry {
       reg.register("slab_tuff", createSlab(Block.Properties.of(), Blocks.TUFF));
       reg.register("slab_smooth_basalt", createSlab(Block.Properties.of(), Blocks.SMOOTH_BASALT));
       reg.register("slab_cracked_nether_bricks", createSlab(Block.Properties.of(), Blocks.CRACKED_NETHER_BRICKS));
+      reg.register("slab_deepslate", createSlab(Block.Properties.of(), Blocks.DEEPSLATE));
       reg.register("slab_cracked_deepslate_bricks", createSlab(Block.Properties.of(), Blocks.CRACKED_DEEPSLATE_BRICKS));
       reg.register("slab_cracked_deepslate_tiles", createSlab(Block.Properties.of(), Blocks.CRACKED_DEEPSLATE_TILES));
       reg.register("slab_sculk", createSlab(Block.Properties.of(), Blocks.SCULK));
@@ -349,6 +350,7 @@ public class AbsentRegistry {
       reg.register("stairs_tuff", createStair(Block.Properties.of(), Blocks.TUFF));
       reg.register("stairs_smooth_basalt", createStair(Block.Properties.of(), Blocks.SMOOTH_BASALT));
       reg.register("stairs_cracked_nether_bricks", createStair(Block.Properties.of(), Blocks.CRACKED_NETHER_BRICKS));
+      reg.register("stairs_deepslate", createStair(Block.Properties.of(), Blocks.DEEPSLATE));
       reg.register("stairs_cracked_deepslate_bricks", createStair(Block.Properties.of(), Blocks.CRACKED_DEEPSLATE_BRICKS));
       reg.register("stairs_cracked_deepslate_tiles", createStair(Block.Properties.of(), Blocks.CRACKED_DEEPSLATE_TILES));
       reg.register("stairs_sculk", createStair(Block.Properties.of(), Blocks.SCULK));
@@ -438,6 +440,7 @@ public class AbsentRegistry {
       reg.register("wall_tuff", createWall(Block.Properties.of(), Blocks.TUFF));
       reg.register("wall_smooth_basalt", createWall(Block.Properties.of(), Blocks.SMOOTH_BASALT));
       reg.register("wall_cracked_nether_bricks", createWall(Block.Properties.of(), Blocks.CRACKED_NETHER_BRICKS));
+      reg.register("wall_deepslate", createWall(Block.Properties.of(), Blocks.DEEPSLATE));
       reg.register("wall_cracked_deepslate_bricks", createWall(Block.Properties.of(), Blocks.CRACKED_DEEPSLATE_BRICKS));
       reg.register("wall_cracked_deepslate_tiles", createWall(Block.Properties.of(), Blocks.CRACKED_DEEPSLATE_TILES));
       reg.register("wall_sculk", createWall(Block.Properties.of(), Blocks.SCULK));
