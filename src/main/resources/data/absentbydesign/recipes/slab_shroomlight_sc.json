@@ -1,0 +1,9 @@
+  
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:shroomlight"
+  },
+  "result": "absentbydesign:slab_shroomlight",
+  "count": 2
+}

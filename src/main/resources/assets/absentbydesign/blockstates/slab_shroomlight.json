@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "absentbydesign:block/slab_shroomlight" },
+        "type=top": { "model": "absentbydesign:block/slab_shroomlight_upper" },
+        "type=double": { "model": "block/shroomlight" }
+    }
+}

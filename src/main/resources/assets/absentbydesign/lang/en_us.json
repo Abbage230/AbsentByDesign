@@ -1,6 +1,10 @@
 {
 	"itemGroup.absentbydesign": "Absent by Design",
 	
+  "block.absentbydesign.wall_shroomlight":"Shroomlight Wall",
+  "block.absentbydesign.stairs_shroomlight":"Shroomlight Stairs",
+  "block.absentbydesign.slab_shroomlight":"Shroomlight Slab",
+	
   "block.absentbydesign.slab_dripstone":"Dripstone Slab",
   "block.absentbydesign.wall_dripstone":"Dripstone Wall",
   "block.absentbydesign.stairs_dripstone":"Dripstone Stairs",

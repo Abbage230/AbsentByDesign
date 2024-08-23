@@ -243,6 +243,7 @@ public class AbsentRegistry {
       reg.register("slab_muddy_mangrove_roots", createSlab(Block.Properties.of(), Blocks.MUDDY_MANGROVE_ROOTS));
       reg.register("slab_cracked_polished_blackstone_bricks", createSlab(Block.Properties.of(), Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS));
       reg.register("slab_dripstone", createSlab(Block.Properties.of(), Blocks.DRIPSTONE_BLOCK));
+      reg.register("slab_shroomlight", createSlab(Block.Properties.of().lightLevel(state -> 15), Blocks.SHROOMLIGHT));
       //
       //                STAIRS
       //
@@ -368,6 +369,7 @@ public class AbsentRegistry {
       reg.register("stairs_muddy_mangrove_roots", createStair(Block.Properties.of(), Blocks.MUDDY_MANGROVE_ROOTS));
       reg.register("stairs_cracked_polished_blackstone_bricks", createStair(Block.Properties.of(), Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS));
       reg.register("stairs_dripstone", createStair(Block.Properties.of(), Blocks.DRIPSTONE_BLOCK));
+      reg.register("stairs_shroomlight", createStair(Block.Properties.of().lightLevel(state -> 15), Blocks.SHROOMLIGHT));
       //
       //                WALLS
       //
@@ -518,6 +520,7 @@ public class AbsentRegistry {
       reg.register("wall_wool_white", createWall(Block.Properties.of(), Blocks.BLACK_WOOL));
       reg.register("wall_wool_yellow", createWall(Block.Properties.of(), Blocks.BLACK_WOOL));
       reg.register("wall_dripstone", createWall(Block.Properties.of(), Blocks.DRIPSTONE_BLOCK));
+      reg.register("wall_shroomlight", createWall(Block.Properties.of().lightLevel(state -> 15), Blocks.SHROOMLIGHT));
       //
       //                GATE
       //
