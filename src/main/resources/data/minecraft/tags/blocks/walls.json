@@ -1,6 +1,10 @@
 {
 	"replace": false,
 	"values": [
+  "absentbydesign:wall_packed_ice",
+	
+  "absentbydesign:wall_blue_ice",
+	
   "absentbydesign:wall_soul_soil",
 	
   "absentbydesign:wall_soul_sand",

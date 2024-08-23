@@ -1,6 +1,17 @@
 {
 	"itemGroup.absentbydesign": "Absent by Design",
 	
+  "block.absentbydesign.wall_packed_ice":"Packed Ice Wall",
+  "block.absentbydesign.stairs_packed_ice":"Packed Ice Stairs",
+  "block.absentbydesign.slab_packed_ice":"Packed Ice Slab",
+  "block.absentbydesign.slab_blue_ice":"Blue Ice Slab",
+  "block.absentbydesign.stairs_blue_ice":"Blue Ice Stairs",
+  "block.absentbydesign.wall_blue_ice":"Blue Ice Wall",
+  
+  
+  
+  
+	
   "block.absentbydesign.stairs_soul_soil":"Soul Soil Stairs",
   "block.absentbydesign.wall_soul_soil":"Soul Soil Wall",
   "block.absentbydesign.slab_soul_soil":"Soul Soil Slab",

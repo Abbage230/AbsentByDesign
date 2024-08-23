@@ -248,6 +248,8 @@ public class AbsentRegistry {
       reg.register("slab_moss", createSlab(Block.Properties.of(), Blocks.MOSS_BLOCK));
       reg.register("slab_soul_sand", createSlab(Block.Properties.of().speedFactor(0.4F), Blocks.SOUL_SAND));
       reg.register("slab_soul_soil", createSlab(Block.Properties.of(), Blocks.SOUL_SOIL));
+      reg.register("slab_packed_ice", createSlab(Block.Properties.of().friction(0.98F), Blocks.PACKED_ICE));
+      reg.register("slab_blue_ice", createSlab(Block.Properties.of().friction(0.989F), Blocks.BLUE_ICE));
       //
       //                STAIRS
       //
@@ -378,6 +380,8 @@ public class AbsentRegistry {
       reg.register("stairs_moss", createStair(Block.Properties.of(), Blocks.MOSS_BLOCK));
       reg.register("stairs_soul_sand", createStair(Block.Properties.of().speedFactor(0.4F), Blocks.SOUL_SAND));
       reg.register("stairs_soul_soil", createStair(Block.Properties.of(), Blocks.SOUL_SOIL));
+      reg.register("stairs_packed_ice", createStair(Block.Properties.of().friction(0.98F), Blocks.PACKED_ICE));
+      reg.register("stairs_blue_ice", createStair(Block.Properties.of().friction(0.989F), Blocks.BLUE_ICE));
       //
       //                WALLS
       //
@@ -533,6 +537,8 @@ public class AbsentRegistry {
       reg.register("wall_moss", createWall(Block.Properties.of(), Blocks.MOSS_BLOCK));
       reg.register("wall_soul_sand", createWall(Block.Properties.of().speedFactor(0.4F), Blocks.SOUL_SAND));
       reg.register("wall_soul_soil", createWall(Block.Properties.of(), Blocks.SOUL_SOIL));
+      reg.register("wall_packed_ice", createWall(Block.Properties.of().friction(0.98F), Blocks.PACKED_ICE));
+      reg.register("wall_blue_ice", createWall(Block.Properties.of().friction(0.989F), Blocks.BLUE_ICE));
       //
       //                GATE
       //
