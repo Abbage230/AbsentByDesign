@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:cracked_polished_blackstone_bricks"
+    }
+  },
+  "result": {
+    "item": "absentbydesign:cracked_polished_blackstone_bricks",
+    "count": 6
+  }
+}

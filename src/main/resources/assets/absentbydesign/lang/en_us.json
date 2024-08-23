@@ -1,7 +1,9 @@
 {
 	"itemGroup.absentbydesign": "Absent by Design",
 	
-	
+  "block.absentbydesign.slab_cracked_polished_blackstone_bricks":"Cracked Polished Blackstone Bricks Slab",
+  "block.absentbydesign.stairs_cracked_polished_blackstone_bricks":"Cracked Polished Blackstone Bricks Stairs",
+  "block.absentbydesign.wall_cracked_polished_blackstone_bricks":"Cracked Polished Blackstone Bricks Wall",
   "block.absentbydesign.slab_deepslate":"Deepslate Slab",
   "block.absentbydesign.stairs_deepslate":"Deepslate Stairs",
   "block.absentbydesign.wall_deepslate":"Deepslate Wall",
