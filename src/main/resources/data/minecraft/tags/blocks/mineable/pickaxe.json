@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
+  "absentbydesign:stairs_honeycomb",
+  "absentbydesign:wall_honeycomb",
+  "absentbydesign:slab_honeycomb",
+  
   
   "absentbydesign:slab_gilded_blackstone",
   "absentbydesign:stairs_gilded_blackstone",

@@ -1,6 +1,8 @@
 {
 	"replace": false,
 	"values": [
+  "absentbydesign:wall_honeycomb",
+	
   "absentbydesign:wall_packed_ice",
 	
   "absentbydesign:wall_blue_ice",

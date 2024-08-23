@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:honeycomb"
+    }
+  },
+  "result": {
+    "item": "absentbydesign:wall_honeycomb",
+    "count": 6
+  }
+}

@@ -42,16 +42,11 @@ public class AbsentRegistry {
   //
   // NO INVENTORY SCREEN BLOCKS (chest, furnace, ...)
   // NO ORES
-  // NO RECIPE OVERRIDES / REMOVALS (example: glass walls vs glass panes, chiseled sandstone -> normal slab)
-  // AVOID METAL-LIKE STORAGE BLOCKS (coal, netherwart, lapis, slime, honey, bone, kelp, ... )
-  // AVOID PLANTS (leaves, coral, moss, cactus, melon ...)
-  // AVOID GRAVITY & WORLD TRIGGER BLOCKS (sand, ice, powder, grass, sponge, tinted_glass, dripstone-pointed, infested, ...)
-  // AVOID REDSTONE STUFF (levers, piston, buttons, dispenser, pressure_plates ...)
-  // AVOID NEW BLOCK TYPES (chain, lantern, glass panes, iron_bars, ...)
-  // AVOID PILLAR
-  // AVOID CHISELED?
-  // AVOID GLAZED TERRACOTTA
-  //
+  // NO RECIPE OVERRIDES / REMOVALS
+  // AVOID PLANTS (leaves, cactus, melon, pumpkin ...)
+  // AVOID GRAVITY & WORLD TRIGGER BLOCKS, NON-SOLID BLOCKS (sand, melting-ice, powder, grass, sponge, infested, ...)
+  // AVOID REDSTONE STUFF (levers, piston, slime, honey, buttons, dispenser, pressure_plates ...)
+  // 
   //
   //
   //
@@ -250,6 +245,7 @@ public class AbsentRegistry {
       reg.register("slab_soul_soil", createSlab(Block.Properties.of(), Blocks.SOUL_SOIL));
       reg.register("slab_packed_ice", createSlab(Block.Properties.of().friction(0.98F), Blocks.PACKED_ICE));
       reg.register("slab_blue_ice", createSlab(Block.Properties.of().friction(0.989F), Blocks.BLUE_ICE));
+      reg.register("slab_honeycomb", createSlab(Block.Properties.of(), Blocks.HONEYCOMB_BLOCK));
       //
       //                STAIRS
       //
@@ -382,6 +378,7 @@ public class AbsentRegistry {
       reg.register("stairs_soul_soil", createStair(Block.Properties.of(), Blocks.SOUL_SOIL));
       reg.register("stairs_packed_ice", createStair(Block.Properties.of().friction(0.98F), Blocks.PACKED_ICE));
       reg.register("stairs_blue_ice", createStair(Block.Properties.of().friction(0.989F), Blocks.BLUE_ICE));
+      reg.register("stairs_honeycomb", createStair(Block.Properties.of(), Blocks.HONEYCOMB_BLOCK));
       //
       //                WALLS
       //
@@ -539,6 +536,7 @@ public class AbsentRegistry {
       reg.register("wall_soul_soil", createWall(Block.Properties.of(), Blocks.SOUL_SOIL));
       reg.register("wall_packed_ice", createWall(Block.Properties.of().friction(0.98F), Blocks.PACKED_ICE));
       reg.register("wall_blue_ice", createWall(Block.Properties.of().friction(0.989F), Blocks.BLUE_ICE));
+      reg.register("wall_honeycomb", createWall(Block.Properties.of(), Blocks.HONEYCOMB_BLOCK));
       //
       //                GATE
       //
