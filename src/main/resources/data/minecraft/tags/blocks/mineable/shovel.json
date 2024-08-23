@@ -1,6 +1,11 @@
 {
   "replace": false,
   "values": [
+  "absentbydesign:stairs_muddy_mangrove_roots",
+  
+  "absentbydesign:slab_muddy_mangrove_roots",
+  "absentbydesign:wall_muddy_mangrove_roots",
+  
     "absentbydesign:slab_snow",
     "absentbydesign:stairs_snow",
     "absentbydesign:slab_mud",

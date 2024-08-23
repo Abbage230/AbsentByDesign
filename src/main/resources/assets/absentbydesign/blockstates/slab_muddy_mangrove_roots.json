@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "absentbydesign:block/slab_muddy_mangrove_roots" },
+        "type=top": { "model": "absentbydesign:block/slab_muddy_mangrove_roots_upper" },
+        "type=double": { "model": "block/muddy_mangrove_roots" }
+    }
+}

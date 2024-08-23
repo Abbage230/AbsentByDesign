@@ -241,6 +241,7 @@ public class AbsentRegistry {
       reg.register("slab_verdant_froglight", createSlab(Block.Properties.of().pushReaction(PushReaction.DESTROY).lightLevel(s -> 15), Blocks.VERDANT_FROGLIGHT));
       reg.register("slab_gold", createSlab(Block.Properties.of(), Blocks.GOLD_BLOCK));
       reg.register("slab_rooted_dirt", createSlab(Block.Properties.of(), Blocks.ROOTED_DIRT));
+      reg.register("slab_muddy_mangrove_roots", createSlab(Block.Properties.of(), Blocks.MUDDY_MANGROVE_ROOTS));
       reg.register("slab_cracked_polished_blackstone_bricks", createSlab(Block.Properties.of(), Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS));
       //
       //                STAIRS
@@ -364,6 +365,7 @@ public class AbsentRegistry {
       reg.register("stairs_verdant_froglight", createStair(Block.Properties.of().pushReaction(PushReaction.DESTROY).lightLevel(s -> 15), Blocks.VERDANT_FROGLIGHT));
       reg.register("stairs_gold", createStair(Block.Properties.of(), Blocks.GOLD_BLOCK));
       reg.register("stairs_rooted_dirt", createStair(Block.Properties.of(), Blocks.ROOTED_DIRT));
+      reg.register("stairs_muddy_mangrove_roots", createStair(Block.Properties.of(), Blocks.MUDDY_MANGROVE_ROOTS));
       reg.register("stairs_cracked_polished_blackstone_bricks", createStair(Block.Properties.of(), Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS));
       //
       //                WALLS
@@ -461,6 +463,7 @@ public class AbsentRegistry {
       reg.register("wall_bamboo_mosaic", createWall(Block.Properties.of(), Blocks.BAMBOO_MOSAIC));
       reg.register("wall_gold", createWall(Block.Properties.of(), Blocks.GOLD_BLOCK));
       reg.register("wall_rooted_dirt", createWall(Block.Properties.of(), Blocks.ROOTED_DIRT));
+      reg.register("wall_muddy_mangrove_roots", createWall(Block.Properties.of(), Blocks.MUDDY_MANGROVE_ROOTS));
       reg.register("wall_cracked_polished_blackstone_bricks", createWall(Block.Properties.of(), Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS));
 
       //
