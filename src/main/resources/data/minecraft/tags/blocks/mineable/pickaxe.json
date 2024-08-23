@@ -1,6 +1,11 @@
 {
   "replace": false,
   "values": [
+  "absentbydesign:slab_rooted_dirt",
+  "absentbydesign:stairs_rooted_dirt",
+  "absentbydesign:wall_rooted_dirt",
+  
+  
   "absentbydesign:slab_cracked_polished_blackstone_bricks",
   "absentbydesign:stairs_cracked_polished_blackstone_bricks",
   "absentbydesign:wall_cracked_polished_blackstone_bricks",

@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "absentbydesign:block/slab_rooted_dirt" },
+        "type=top": { "model": "absentbydesign:block/slab_rooted_dirt_upper" },
+        "type=double": { "model": "block/rooted_dirt" }
+    }
+}

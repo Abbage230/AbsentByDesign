@@ -1,6 +1,8 @@
 {
 	"replace": false,
 	"values": [
+  "absentbydesign:wall_rooted_dirt",
+	
   "absentbydesign:wall_deepslate",
   "absentbydesign:wall_cracked_polished_blackstone_bricks",
   
