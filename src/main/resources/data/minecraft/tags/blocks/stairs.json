@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+  "absentbydesign:stairs_dripstone",
+  
   "absentbydesign:stairs_muddy_mangrove_roots",
   "absentbydesign:stairs_deepslate",
   "absentbydesign:stairs_rooted_dirt",

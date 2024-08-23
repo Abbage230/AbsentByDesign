@@ -1,6 +1,7 @@
 {
 	"replace": false,
 	"values": [
+  "absentbydesign:wall_dripstone",
   "absentbydesign:wall_snow",
   "absentbydesign:wall_netherrack",
   "absentbydesign:wall_coarse_dirt",

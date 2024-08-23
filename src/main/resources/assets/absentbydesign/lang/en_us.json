@@ -1,6 +1,12 @@
 {
 	"itemGroup.absentbydesign": "Absent by Design",
 	
+  "block.absentbydesign.slab_dripstone":"Dripstone Slab",
+  "block.absentbydesign.wall_dripstone":"Dripstone Wall",
+  "block.absentbydesign.stairs_dripstone":"Dripstone Stairs",
+  
+  
+	
   "block.absentbydesign.slab_cracked_polished_blackstone_bricks":"Cracked Polished Blackstone Bricks Slab",
   "block.absentbydesign.stairs_cracked_polished_blackstone_bricks":"Cracked Polished Blackstone Bricks Stairs",
   "block.absentbydesign.wall_cracked_polished_blackstone_bricks":"Cracked Polished Blackstone Bricks Wall",

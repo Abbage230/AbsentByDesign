@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "absentbydesign:block/slab_dripstone" },
+        "type=top": { "model": "absentbydesign:block/slab_dripstone_upper" },
+        "type=double": { "model": "block/dripstone_block" }
+    }
+}

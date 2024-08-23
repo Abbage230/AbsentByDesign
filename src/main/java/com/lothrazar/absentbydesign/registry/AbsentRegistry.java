@@ -43,10 +43,9 @@ public class AbsentRegistry {
   // NO INVENTORY SCREEN BLOCKS (chest, furnace, ...)
   // NO ORES
   // NO RECIPE OVERRIDES / REMOVALS (example: glass walls vs glass panes, chiseled sandstone -> normal slab)
-  // NO METAL / DIAMOND / EMERALD
   // AVOID METAL-LIKE STORAGE BLOCKS (coal, netherwart, lapis, slime, honey, bone, kelp, ... )
   // AVOID PLANTS (leaves, coral, moss, cactus, melon ...)
-  // AVOID GRAVITY & WORLD TRIGGER BLOCKS (sand, ice, powder, grass, sponge, tinted_glass, dripstone, infested, ...)
+  // AVOID GRAVITY & WORLD TRIGGER BLOCKS (sand, ice, powder, grass, sponge, tinted_glass, dripstone-pointed, infested, ...)
   // AVOID REDSTONE STUFF (levers, piston, buttons, dispenser, pressure_plates ...)
   // AVOID NEW BLOCK TYPES (chain, lantern, glass panes, iron_bars, ...)
   // AVOID PILLAR
@@ -243,6 +242,7 @@ public class AbsentRegistry {
       reg.register("slab_rooted_dirt", createSlab(Block.Properties.of(), Blocks.ROOTED_DIRT));
       reg.register("slab_muddy_mangrove_roots", createSlab(Block.Properties.of(), Blocks.MUDDY_MANGROVE_ROOTS));
       reg.register("slab_cracked_polished_blackstone_bricks", createSlab(Block.Properties.of(), Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS));
+      reg.register("slab_dripstone", createSlab(Block.Properties.of(), Blocks.DRIPSTONE_BLOCK));
       //
       //                STAIRS
       //
@@ -367,6 +367,7 @@ public class AbsentRegistry {
       reg.register("stairs_rooted_dirt", createStair(Block.Properties.of(), Blocks.ROOTED_DIRT));
       reg.register("stairs_muddy_mangrove_roots", createStair(Block.Properties.of(), Blocks.MUDDY_MANGROVE_ROOTS));
       reg.register("stairs_cracked_polished_blackstone_bricks", createStair(Block.Properties.of(), Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS));
+      reg.register("stairs_dripstone", createStair(Block.Properties.of(), Blocks.DRIPSTONE_BLOCK));
       //
       //                WALLS
       //
@@ -516,6 +517,7 @@ public class AbsentRegistry {
       reg.register("wall_wool_red", createWall(Block.Properties.of(), Blocks.BLACK_WOOL));
       reg.register("wall_wool_white", createWall(Block.Properties.of(), Blocks.BLACK_WOOL));
       reg.register("wall_wool_yellow", createWall(Block.Properties.of(), Blocks.BLACK_WOOL));
+      reg.register("wall_dripstone", createWall(Block.Properties.of(), Blocks.DRIPSTONE_BLOCK));
       //
       //                GATE
       //

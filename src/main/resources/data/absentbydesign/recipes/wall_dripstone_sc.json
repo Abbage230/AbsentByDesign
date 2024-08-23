@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:dripstone"
+  },
+  "result": "absentbydesign:wall_dripstone",
+  "count": 1
+}
