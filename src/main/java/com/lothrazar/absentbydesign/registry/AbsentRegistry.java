@@ -247,6 +247,7 @@ public class AbsentRegistry {
       reg.register("slab_gilded_blackstone", createSlab(Block.Properties.of(), Blocks.GILDED_BLACKSTONE));
       reg.register("slab_moss", createSlab(Block.Properties.of(), Blocks.MOSS_BLOCK));
       reg.register("slab_soul_sand", createSlab(Block.Properties.of().speedFactor(0.4F), Blocks.SOUL_SAND));
+      reg.register("slab_soul_soil", createSlab(Block.Properties.of(), Blocks.SOUL_SOIL));
       //
       //                STAIRS
       //
@@ -376,6 +377,7 @@ public class AbsentRegistry {
       reg.register("stairs_gilded_blackstone", createStair(Block.Properties.of(), Blocks.GILDED_BLACKSTONE));
       reg.register("stairs_moss", createStair(Block.Properties.of(), Blocks.MOSS_BLOCK));
       reg.register("stairs_soul_sand", createStair(Block.Properties.of().speedFactor(0.4F), Blocks.SOUL_SAND));
+      reg.register("stairs_soul_soil", createStair(Block.Properties.of(), Blocks.SOUL_SOIL));
       //
       //                WALLS
       //
@@ -530,6 +532,7 @@ public class AbsentRegistry {
       reg.register("wall_gilded_blackstone", createWall(Block.Properties.of(), Blocks.GILDED_BLACKSTONE));
       reg.register("wall_moss", createWall(Block.Properties.of(), Blocks.MOSS_BLOCK));
       reg.register("wall_soul_sand", createWall(Block.Properties.of().speedFactor(0.4F), Blocks.SOUL_SAND));
+      reg.register("wall_soul_soil", createWall(Block.Properties.of(), Blocks.SOUL_SOIL));
       //
       //                GATE
       //

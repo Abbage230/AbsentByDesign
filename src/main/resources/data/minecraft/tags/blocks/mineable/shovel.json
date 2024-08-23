@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
+  "absentbydesign:stairs_soul_soil",
+  "absentbydesign:wall_soul_soil",
+  "absentbydesign:slab_soul_soil",
+  
   "absentbydesign:slab_soul_sand",  
   "absentbydesign:wall_soul_sand",  
   "absentbydesign:stairs_soul_sand",

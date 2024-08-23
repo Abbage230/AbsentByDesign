@@ -1,6 +1,8 @@
 {
 	"replace": false,
 	"values": [
+  "absentbydesign:wall_soul_soil",
+	
   "absentbydesign:wall_soul_sand",
 	
   "absentbydesign:wall_shroomlight",
