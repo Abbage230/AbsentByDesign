@@ -14,6 +14,6 @@
 	},
 	"1.20.1":{
        "1.8.0":"Ported",
-	   "1.9.0":" Fix fence_warped being a variant of Obsidian -Merge pull request #53 from nitrodynamite18 .  Merge pull request #59 from Abbage230  Create ja_jp.json.  Merge pull request #57 from TheAnaxMan Updated ru_ru.json.    Merge pull request #62 from smoong951   Update ko_kr.json .     Merge pull request #60 from Kentaarka add gold slabs, stairs and walls.  Fixed incorrect block mineable tags.  Added new blocks: non-cobbled Deepslate slab, stair, wall; Cracked Blackstone brick slab, stair, wall; Rooted Dirt stair, slab, wall; Muddy Mangrove Roots stair, slab, block; Snow wall; Netherrack Wall; Coarse Dirt Wall; Add 16 Concrete Walls;           "
+	   "1.9.0":" Fix fence_warped being a variant of Obsidian -Merge pull request #53 from nitrodynamite18 .  Merge pull request #59 from Abbage230  Create ja_jp.json.  Merge pull request #57 from TheAnaxMan Updated ru_ru.json.    Merge pull request #62 from smoong951   Update ko_kr.json .     Merge pull request #60 from Kentaarka add gold slabs, stairs and walls.  Fixed incorrect block mineable tags.  Added new blocks: non-cobbled Deepslate slab, stair, wall; Cracked Blackstone brick slab, stair, wall; Rooted Dirt stair, slab, wall; Muddy Mangrove Roots stair, slab, block; Snow wall; Netherrack Wall; Coarse Dirt Wall; Add 16 Concrete Walls; Add 16 terracotta walls,            "
 	}
 }

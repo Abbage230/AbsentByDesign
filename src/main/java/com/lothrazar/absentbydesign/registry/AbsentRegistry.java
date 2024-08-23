@@ -500,6 +500,22 @@ public class AbsentRegistry {
       reg.register("wall_terracotta_red", createWall(Block.Properties.of(), Blocks.BLACK_TERRACOTTA));
       reg.register("wall_terracotta_white", createWall(Block.Properties.of(), Blocks.BLACK_TERRACOTTA));
       reg.register("wall_terracotta_yellow", createWall(Block.Properties.of(), Blocks.BLACK_TERRACOTTA));
+      reg.register("wall_wool_black", createWall(Block.Properties.of(), Blocks.BLACK_WOOL));
+      reg.register("wall_wool_blue", createWall(Block.Properties.of(), Blocks.BLACK_WOOL));
+      reg.register("wall_wool_brown", createWall(Block.Properties.of(), Blocks.BLACK_WOOL));
+      reg.register("wall_wool_cyan", createWall(Block.Properties.of(), Blocks.BLACK_WOOL));
+      reg.register("wall_wool_gray", createWall(Block.Properties.of(), Blocks.BLACK_WOOL));
+      reg.register("wall_wool_green", createWall(Block.Properties.of(), Blocks.BLACK_WOOL));
+      reg.register("wall_wool_light_blue", createWall(Block.Properties.of(), Blocks.BLACK_WOOL));
+      reg.register("wall_wool_light_gray", createWall(Block.Properties.of(), Blocks.BLACK_WOOL));
+      reg.register("wall_wool_lime", createWall(Block.Properties.of(), Blocks.BLACK_WOOL));
+      reg.register("wall_wool_magenta", createWall(Block.Properties.of(), Blocks.BLACK_WOOL));
+      reg.register("wall_wool_orange", createWall(Block.Properties.of(), Blocks.BLACK_WOOL));
+      reg.register("wall_wool_pink", createWall(Block.Properties.of(), Blocks.BLACK_WOOL));
+      reg.register("wall_wool_purple", createWall(Block.Properties.of(), Blocks.BLACK_WOOL));
+      reg.register("wall_wool_red", createWall(Block.Properties.of(), Blocks.BLACK_WOOL));
+      reg.register("wall_wool_white", createWall(Block.Properties.of(), Blocks.BLACK_WOOL));
+      reg.register("wall_wool_yellow", createWall(Block.Properties.of(), Blocks.BLACK_WOOL));
       //
       //                GATE
       //
