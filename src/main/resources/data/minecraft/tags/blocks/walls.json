@@ -1,6 +1,8 @@
 {
 	"replace": false,
 	"values": [
+  "absentbydesign:wall_snow",
+	
   "absentbydesign:wall_muddy_mangrove_roots",
 	
   "absentbydesign:wall_rooted_dirt",
