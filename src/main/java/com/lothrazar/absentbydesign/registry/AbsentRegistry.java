@@ -466,6 +466,7 @@ public class AbsentRegistry {
       reg.register("wall_muddy_mangrove_roots", createWall(Block.Properties.of(), Blocks.MUDDY_MANGROVE_ROOTS));
       reg.register("wall_cracked_polished_blackstone_bricks", createWall(Block.Properties.of(), Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS));
       reg.register("wall_snow", createWall(Block.Properties.of(), Blocks.SNOW));
+      reg.register("wall_netherrack", createWall(Block.Properties.of(), Blocks.NETHERRACK));
       //
       //                GATE
       //
