@@ -484,6 +484,22 @@ public class AbsentRegistry {
       reg.register("wall_concrete_red", createWall(Block.Properties.of(), Blocks.RED_CONCRETE));
       reg.register("wall_concrete_white", createWall(Block.Properties.of(), Blocks.WHITE_CONCRETE));
       reg.register("wall_concrete_yellow", createWall(Block.Properties.of(), Blocks.YELLOW_CONCRETE));
+      reg.register("wall_terracotta_black", createWall(Block.Properties.of(), Blocks.BLACK_TERRACOTTA));
+      reg.register("wall_terracotta_blue", createWall(Block.Properties.of(), Blocks.BLACK_TERRACOTTA));
+      reg.register("wall_terracotta_brown", createWall(Block.Properties.of(), Blocks.BLACK_TERRACOTTA));
+      reg.register("wall_terracotta_cyan", createWall(Block.Properties.of(), Blocks.BLACK_TERRACOTTA));
+      reg.register("wall_terracotta_gray", createWall(Block.Properties.of(), Blocks.BLACK_TERRACOTTA));
+      reg.register("wall_terracotta_green", createWall(Block.Properties.of(), Blocks.BLACK_TERRACOTTA));
+      reg.register("wall_terracotta_light_blue", createWall(Block.Properties.of(), Blocks.BLACK_TERRACOTTA));
+      reg.register("wall_terracotta_light_gray", createWall(Block.Properties.of(), Blocks.BLACK_TERRACOTTA));
+      reg.register("wall_terracotta_lime", createWall(Block.Properties.of(), Blocks.BLACK_TERRACOTTA));
+      reg.register("wall_terracotta_magenta", createWall(Block.Properties.of(), Blocks.BLACK_TERRACOTTA));
+      reg.register("wall_terracotta_orange", createWall(Block.Properties.of(), Blocks.BLACK_TERRACOTTA));
+      reg.register("wall_terracotta_pink", createWall(Block.Properties.of(), Blocks.BLACK_TERRACOTTA));
+      reg.register("wall_terracotta_purple", createWall(Block.Properties.of(), Blocks.BLACK_TERRACOTTA));
+      reg.register("wall_terracotta_red", createWall(Block.Properties.of(), Blocks.BLACK_TERRACOTTA));
+      reg.register("wall_terracotta_white", createWall(Block.Properties.of(), Blocks.BLACK_TERRACOTTA));
+      reg.register("wall_terracotta_yellow", createWall(Block.Properties.of(), Blocks.BLACK_TERRACOTTA));
       //
       //                GATE
       //
