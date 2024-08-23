@@ -244,6 +244,7 @@ public class AbsentRegistry {
       reg.register("slab_cracked_polished_blackstone_bricks", createSlab(Block.Properties.of(), Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS));
       reg.register("slab_dripstone", createSlab(Block.Properties.of(), Blocks.DRIPSTONE_BLOCK));
       reg.register("slab_shroomlight", createSlab(Block.Properties.of().lightLevel(state -> 15), Blocks.SHROOMLIGHT));
+      reg.register("slab_gilded_blackstone", createSlab(Block.Properties.of(), Blocks.GILDED_BLACKSTONE));
       //
       //                STAIRS
       //
@@ -370,6 +371,7 @@ public class AbsentRegistry {
       reg.register("stairs_cracked_polished_blackstone_bricks", createStair(Block.Properties.of(), Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS));
       reg.register("stairs_dripstone", createStair(Block.Properties.of(), Blocks.DRIPSTONE_BLOCK));
       reg.register("stairs_shroomlight", createStair(Block.Properties.of().lightLevel(state -> 15), Blocks.SHROOMLIGHT));
+      reg.register("stairs_gilded_blackstone", createStair(Block.Properties.of(), Blocks.GILDED_BLACKSTONE));
       //
       //                WALLS
       //
@@ -521,6 +523,7 @@ public class AbsentRegistry {
       reg.register("wall_wool_yellow", createWall(Block.Properties.of(), Blocks.BLACK_WOOL));
       reg.register("wall_dripstone", createWall(Block.Properties.of(), Blocks.DRIPSTONE_BLOCK));
       reg.register("wall_shroomlight", createWall(Block.Properties.of().lightLevel(state -> 15), Blocks.SHROOMLIGHT));
+      reg.register("wall_gilded_blackstone", createWall(Block.Properties.of(), Blocks.GILDED_BLACKSTONE));
       //
       //                GATE
       //

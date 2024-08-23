@@ -1,6 +1,10 @@
 {
 	"itemGroup.absentbydesign": "Absent by Design",
 	
+  "block.absentbydesign.stairs_gilded_blackstone":"Gilded Blackstone Stairs",
+  "block.absentbydesign.wall_gilded_blackstone":"Gilded Blackstone Wall",
+  "block.absentbydesign.slab_gilded_blackstone":"Gilded Blackstone Slab",
+	
   "block.absentbydesign.wall_shroomlight":"Shroomlight Wall",
   "block.absentbydesign.stairs_shroomlight":"Shroomlight Stairs",
   "block.absentbydesign.slab_shroomlight":"Shroomlight Slab",

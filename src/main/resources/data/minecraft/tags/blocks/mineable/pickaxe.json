@@ -2,6 +2,10 @@
   "replace": false,
   "values": [
   
+  "absentbydesign:slab_gilded_blackstone",
+  "absentbydesign:stairs_gilded_blackstone",
+  "absentbydesign:wall_gilded_blackstone",
+  
   "absentbydesign:stairs_dripstone",
   "absentbydesign:slab_dripstone",  
   "absentbydesign:wall_dripstone",
