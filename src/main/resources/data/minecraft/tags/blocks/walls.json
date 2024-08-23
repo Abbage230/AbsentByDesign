@@ -1,8 +1,11 @@
 {
 	"replace": false,
 	"values": [
-  "absentbydesign:wall_shroomlight",
+  "absentbydesign:wall_soul_sand",
 	
+  "absentbydesign:wall_shroomlight",
+  "absentbydesign:wall_moss",
+
   "absentbydesign:wall_gilded_blackstone",
 	
   "absentbydesign:wall_dripstone",

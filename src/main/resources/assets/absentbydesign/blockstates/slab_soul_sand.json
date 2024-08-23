@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "absentbydesign:block/slab_soul_sand" },
+        "type=top": { "model": "absentbydesign:block/slab_soul_sand_upper" },
+        "type=double": { "model": "block/soul_sand" }
+    }
+}

@@ -2,8 +2,10 @@
   "replace": false,
   "values": [ 
   
+  "absentbydesign:wall_moss",
+  "absentbydesign:slab_moss",
+  "absentbydesign:stairs_moss",
   
-   
   "absentbydesign:wall_sculk",
   "absentbydesign:stairs_sculk",
   "absentbydesign:slab_sculk",

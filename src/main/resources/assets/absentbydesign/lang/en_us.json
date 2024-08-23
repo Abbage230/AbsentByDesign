@@ -1,6 +1,16 @@
 {
 	"itemGroup.absentbydesign": "Absent by Design",
 	
+  "block.absentbydesign.stairs_soul_sand":"Soul Sand Stairs",
+  "block.absentbydesign.slab_soul_sand":"Soul Sand Slab",
+  "block.absentbydesign.wall_soul_sand":"Soul Sand Wall",
+  
+  
+	
+  "block.absentbydesign.stairs_moss":"Moss Stairs",
+  "block.absentbydesign.wall_moss":"Moss Wall",
+  "block.absentbydesign.slab_moss":"Moss Slab",
+	
   "block.absentbydesign.stairs_gilded_blackstone":"Gilded Blackstone Stairs",
   "block.absentbydesign.wall_gilded_blackstone":"Gilded Blackstone Wall",
   "block.absentbydesign.slab_gilded_blackstone":"Gilded Blackstone Slab",

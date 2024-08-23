@@ -245,6 +245,8 @@ public class AbsentRegistry {
       reg.register("slab_dripstone", createSlab(Block.Properties.of(), Blocks.DRIPSTONE_BLOCK));
       reg.register("slab_shroomlight", createSlab(Block.Properties.of().lightLevel(state -> 15), Blocks.SHROOMLIGHT));
       reg.register("slab_gilded_blackstone", createSlab(Block.Properties.of(), Blocks.GILDED_BLACKSTONE));
+      reg.register("slab_moss", createSlab(Block.Properties.of(), Blocks.MOSS_BLOCK));
+      reg.register("slab_soul_sand", createSlab(Block.Properties.of().speedFactor(0.4F), Blocks.SOUL_SAND));
       //
       //                STAIRS
       //
@@ -372,6 +374,8 @@ public class AbsentRegistry {
       reg.register("stairs_dripstone", createStair(Block.Properties.of(), Blocks.DRIPSTONE_BLOCK));
       reg.register("stairs_shroomlight", createStair(Block.Properties.of().lightLevel(state -> 15), Blocks.SHROOMLIGHT));
       reg.register("stairs_gilded_blackstone", createStair(Block.Properties.of(), Blocks.GILDED_BLACKSTONE));
+      reg.register("stairs_moss", createStair(Block.Properties.of(), Blocks.MOSS_BLOCK));
+      reg.register("stairs_soul_sand", createStair(Block.Properties.of().speedFactor(0.4F), Blocks.SOUL_SAND));
       //
       //                WALLS
       //
@@ -524,6 +528,8 @@ public class AbsentRegistry {
       reg.register("wall_dripstone", createWall(Block.Properties.of(), Blocks.DRIPSTONE_BLOCK));
       reg.register("wall_shroomlight", createWall(Block.Properties.of().lightLevel(state -> 15), Blocks.SHROOMLIGHT));
       reg.register("wall_gilded_blackstone", createWall(Block.Properties.of(), Blocks.GILDED_BLACKSTONE));
+      reg.register("wall_moss", createWall(Block.Properties.of(), Blocks.MOSS_BLOCK));
+      reg.register("wall_soul_sand", createWall(Block.Properties.of().speedFactor(0.4F), Blocks.SOUL_SAND));
       //
       //                GATE
       //
