@@ -468,6 +468,22 @@ public class AbsentRegistry {
       reg.register("wall_snow", createWall(Block.Properties.of(), Blocks.SNOW));
       reg.register("wall_netherrack", createWall(Block.Properties.of(), Blocks.NETHERRACK));
       reg.register("wall_coarse_dirt", createWall(Block.Properties.of(), Blocks.COARSE_DIRT));
+      reg.register("wall_concrete_black", createWall(Block.Properties.of(), Blocks.BLACK_CONCRETE));
+      reg.register("wall_concrete_blue", createWall(Block.Properties.of(), Blocks.BLUE_CONCRETE));
+      reg.register("wall_concrete_brown", createWall(Block.Properties.of(), Blocks.BROWN_CONCRETE));
+      reg.register("wall_concrete_cyan", createWall(Block.Properties.of(), Blocks.CYAN_CONCRETE));
+      reg.register("wall_concrete_gray", createWall(Block.Properties.of(), Blocks.GRAY_CONCRETE));
+      reg.register("wall_concrete_green", createWall(Block.Properties.of(), Blocks.GREEN_CONCRETE));
+      reg.register("wall_concrete_light_blue", createWall(Block.Properties.of(), Blocks.LIGHT_BLUE_CONCRETE));
+      reg.register("wall_concrete_light_gray", createWall(Block.Properties.of(), Blocks.LIGHT_GRAY_CONCRETE));
+      reg.register("wall_concrete_lime", createWall(Block.Properties.of(), Blocks.LIME_CONCRETE));
+      reg.register("wall_concrete_magenta", createWall(Block.Properties.of(), Blocks.MAGENTA_CONCRETE));
+      reg.register("wall_concrete_orange", createWall(Block.Properties.of(), Blocks.ORANGE_CONCRETE));
+      reg.register("wall_concrete_pink", createWall(Block.Properties.of(), Blocks.PINK_CONCRETE));
+      reg.register("wall_concrete_purple", createWall(Block.Properties.of(), Blocks.PURPLE_CONCRETE));
+      reg.register("wall_concrete_red", createWall(Block.Properties.of(), Blocks.RED_CONCRETE));
+      reg.register("wall_concrete_white", createWall(Block.Properties.of(), Blocks.WHITE_CONCRETE));
+      reg.register("wall_concrete_yellow", createWall(Block.Properties.of(), Blocks.YELLOW_CONCRETE));
       //
       //                GATE
       //
