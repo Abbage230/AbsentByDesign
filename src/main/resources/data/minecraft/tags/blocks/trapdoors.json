@@ -1,6 +1,14 @@
 {
   "replace": false,
   "values": [
+    "absentbydesign:trapdoor_emerald",
+    "absentbydesign:trapdoor_diamond",
+    "absentbydesign:trapdoor_lapis",
+    "absentbydesign:trapdoor_quartz_bricks",
+    "absentbydesign:trapdoor_crying_obsidian",
+    "absentbydesign:trapdoor_obsidian",
+    "absentbydesign:trapdoor_amethyst",
+    "absentbydesign:trapdoor_gold",
     "absentbydesign:trapdoor_stone",
     "absentbydesign:trapdoor_granite",
     "absentbydesign:trapdoor_andesite",

@@ -1,6 +1,18 @@
 {
 	"itemGroup.absentbydesign": "Absent by Design",
 	
+  "block.absentbydesign.trapdoor_diamond":"Diamond Trapdoor",
+  "block.absentbydesign.trapdoor_lapis":"Lapis Trapdoor",
+  "block.absentbydesign.trapdoor_emerald":"Emerald Trapdoor",
+  
+
+  "block.absentbydesign.trapdoor_amethyst":"Amethyst Trapdoor",
+  "block.absentbydesign.trapdoor_quartz_bricks":"Quartz Brick Trapdoor",
+  "block.absentbydesign.trapdoor_obsidian":"Obsidian Trapdoor",
+  "block.absentbydesign.trapdoor_crying_obsidian":"Crying Obsidian Trapdoor",
+	
+  "block.absentbydesign.trapdoor_gold":"Gold Trapdoor",
+	
   "block.absentbydesign.slab_iron":"Iron Slab",
   "block.absentbydesign.stairs_iron":"Iron Stairs",
   "block.absentbydesign.wall_iron":"Iron Wall",

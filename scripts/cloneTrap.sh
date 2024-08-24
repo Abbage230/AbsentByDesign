@@ -22,6 +22,7 @@ folderdata="src/main/resources/data/${modid}"
 cp "${folderdata}"/loot_tables/blocks/${seed}.json "${folderdata}"/loot_tables/blocks/"${newblock}".json
 cp "${folderdata}"/recipes/${seed}.json "${folderdata}"/recipes/"${newblock}".json
 sed -i -e "s/${seed}/${newblock}/g" "${folderdata}"/recipes/"${newblock}".json
+sed -i -e "s/${original}/${dest}/g" "${folderdata}"/recipes/"${newblock}".json
 sed -i -e "s/${seed}/${newblock}/g" "${folderdata}"/loot_tables/blocks/"${newblock}".json
 
 

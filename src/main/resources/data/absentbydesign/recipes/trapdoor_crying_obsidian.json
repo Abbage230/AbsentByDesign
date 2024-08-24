@@ -6,11 +6,11 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:mud_bricks"
+      "item": "minecraft:crying_obsidian"
     }
   },
   "result": {
-    "item": "absentbydesign:trapdoor_mud_bricks",
+    "item": "absentbydesign:trapdoor_crying_obsidian",
     "count": 1
   }
 }

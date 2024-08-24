@@ -6,11 +6,11 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:mud_bricks"
+      "item": "minecraft:gold_ingot"
     }
   },
   "result": {
-    "item": "absentbydesign:trapdoor_mud_bricks",
+    "item": "absentbydesign:trapdoor_gold",
     "count": 1
   }
 }

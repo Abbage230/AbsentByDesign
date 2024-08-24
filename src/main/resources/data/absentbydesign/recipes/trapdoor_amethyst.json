@@ -6,11 +6,11 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:mud_bricks"
+      "item": "minecraft:amethyst_shard"
     }
   },
   "result": {
-    "item": "absentbydesign:trapdoor_mud_bricks",
+    "item": "absentbydesign:trapdoor_amethyst",
     "count": 1
   }
 }
