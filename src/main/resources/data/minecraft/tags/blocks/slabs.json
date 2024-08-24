@@ -1,6 +1,14 @@
 {
   "replace": false,
   "values": [
+  "absentbydesign:slab_netherite",
+  "absentbydesign:slab_iron",
+
+  "absentbydesign:slab_bone",
+  "absentbydesign:slab_emerald",
+  "absentbydesign:slab_diamond",
+  "absentbydesign:slab_lapis",
+  
   "absentbydesign:slab_honeycomb",
   
   "absentbydesign:slab_blue_ice",

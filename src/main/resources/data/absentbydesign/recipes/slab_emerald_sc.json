@@ -1,0 +1,9 @@
+  
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:emerald_block"
+  },
+  "result": "absentbydesign:slab_emerald_block",
+  "count": 2
+}

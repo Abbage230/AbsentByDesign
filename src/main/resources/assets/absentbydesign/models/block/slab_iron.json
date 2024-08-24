@@ -1,0 +1,6 @@
+{
+  "parent": "absentbydesign:parent/slab",
+  "textures": {
+    "b": "block/iron_block"
+  }
+}

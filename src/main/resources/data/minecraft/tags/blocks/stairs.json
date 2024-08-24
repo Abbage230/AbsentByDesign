@@ -1,6 +1,16 @@
 {
   "replace": false,
   "values": [
+  "absentbydesign:stairs_netherite",
+  "absentbydesign:stairs_iron",
+  
+
+  "absentbydesign:stairs_bone",
+  "absentbydesign:stairs_emerald",
+  "absentbydesign:stairs_diamond",
+  "absentbydesign:stairs_lapis",
+  "absentbydesign:stairs_emerald",
+  
   "absentbydesign:stairs_honeycomb",
   
   "absentbydesign:stairs_packed_ice",

@@ -42,7 +42,7 @@ public class AbsentRegistry {
   //
   // NO INVENTORY SCREEN BLOCKS (chest, furnace, ...)
   // NO ORES
-  // NO RECIPE OVERRIDES / REMOVALS
+  // NO RECIPE OVERRIDES / REMOVALS (ie no fence_iron since iron fences already exist)
   // AVOID PLANTS (leaves, cactus, melon, pumpkin ...)
   // AVOID GRAVITY & WORLD TRIGGER BLOCKS, NON-SOLID BLOCKS (sand, melting-ice, powder, grass, sponge, infested, ...)
   // AVOID REDSTONE STUFF (levers, piston, slime, honey, buttons, dispenser, pressure_plates ...)
@@ -246,6 +246,12 @@ public class AbsentRegistry {
       reg.register("slab_packed_ice", createSlab(Block.Properties.of().friction(0.98F), Blocks.PACKED_ICE));
       reg.register("slab_blue_ice", createSlab(Block.Properties.of().friction(0.989F), Blocks.BLUE_ICE));
       reg.register("slab_honeycomb", createSlab(Block.Properties.of(), Blocks.HONEYCOMB_BLOCK));
+      reg.register("slab_emerald", createSlab(Block.Properties.of(), Blocks.EMERALD_BLOCK));
+      reg.register("slab_lapis", createSlab(Block.Properties.of(), Blocks.LAPIS_BLOCK));
+      reg.register("slab_diamond", createSlab(Block.Properties.of(), Blocks.DIAMOND_BLOCK));
+      reg.register("slab_bone", createSlab(Block.Properties.of(), Blocks.BONE_BLOCK));
+      reg.register("slab_netherite", createSlab(Block.Properties.of(), Blocks.NETHERITE_BLOCK));
+      reg.register("slab_iron", createSlab(Block.Properties.of(), Blocks.IRON_BLOCK));
       //
       //                STAIRS
       //
@@ -379,6 +385,12 @@ public class AbsentRegistry {
       reg.register("stairs_packed_ice", createStair(Block.Properties.of().friction(0.98F), Blocks.PACKED_ICE));
       reg.register("stairs_blue_ice", createStair(Block.Properties.of().friction(0.989F), Blocks.BLUE_ICE));
       reg.register("stairs_honeycomb", createStair(Block.Properties.of(), Blocks.HONEYCOMB_BLOCK));
+      reg.register("stairs_emerald", createStair(Block.Properties.of(), Blocks.EMERALD_BLOCK));
+      reg.register("stairs_lapis", createStair(Block.Properties.of(), Blocks.LAPIS_BLOCK));
+      reg.register("stairs_diamond", createStair(Block.Properties.of(), Blocks.DIAMOND_BLOCK));
+      reg.register("stairs_bone", createStair(Block.Properties.of(), Blocks.BONE_BLOCK));
+      reg.register("stairs_netherite", createStair(Block.Properties.of(), Blocks.NETHERITE_BLOCK));
+      reg.register("stairs_iron", createStair(Block.Properties.of(), Blocks.IRON_BLOCK));
       //
       //                WALLS
       //
@@ -537,6 +549,12 @@ public class AbsentRegistry {
       reg.register("wall_packed_ice", createWall(Block.Properties.of().friction(0.98F), Blocks.PACKED_ICE));
       reg.register("wall_blue_ice", createWall(Block.Properties.of().friction(0.989F), Blocks.BLUE_ICE));
       reg.register("wall_honeycomb", createWall(Block.Properties.of(), Blocks.HONEYCOMB_BLOCK));
+      reg.register("wall_emerald", createWall(Block.Properties.of(), Blocks.EMERALD_BLOCK));
+      reg.register("wall_lapis", createWall(Block.Properties.of(), Blocks.LAPIS_BLOCK));
+      reg.register("wall_diamond", createWall(Block.Properties.of(), Blocks.DIAMOND_BLOCK));
+      reg.register("wall_bone", createWall(Block.Properties.of(), Blocks.BONE_BLOCK));
+      reg.register("wall_netherite", createWall(Block.Properties.of(), Blocks.NETHERITE_BLOCK));
+      reg.register("wall_iron", createWall(Block.Properties.of(), Blocks.IRON_BLOCK));
       //
       //                GATE
       //

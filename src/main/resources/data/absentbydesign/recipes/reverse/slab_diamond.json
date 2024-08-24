@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "absentbydesign:slab_diamond"
+    }
+  },
+  "result": {
+    "item": "minecraft:diamond_block",
+    "count": 1
+  }
+}

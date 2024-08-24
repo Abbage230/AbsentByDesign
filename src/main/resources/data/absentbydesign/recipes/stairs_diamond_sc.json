@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:diamond_block"
+  },
+  "result": "absentbydesign:stairs_diamond_block",
+  "count": 1
+}

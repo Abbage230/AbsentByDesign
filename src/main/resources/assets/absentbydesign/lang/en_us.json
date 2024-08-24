@@ -1,6 +1,32 @@
 {
 	"itemGroup.absentbydesign": "Absent by Design",
 	
+  "block.absentbydesign.slab_iron":"Iron Slab",
+  "block.absentbydesign.stairs_iron":"Iron Stairs",
+  "block.absentbydesign.wall_iron":"Iron Wall",
+  
+  
+	
+  "block.absentbydesign.wall_netherite":"Netherite Wall",
+  "block.absentbydesign.stairs_netherite":"Netherite Stairs",
+  "block.absentbydesign.slab_netherite":"Netherite Slab",
+  
+  
+	
+  "block.absentbydesign.slab_bone":"Bone Slab",
+  "block.absentbydesign.wall_bone":"Bone Wall",
+  "block.absentbydesign.stairs_bone":"Bone Stairs",
+	
+  "block.absentbydesign.wall_diamond":"Diamond Wall",
+  "block.absentbydesign.stairs_diamond":"Diamond Stairs",
+  "block.absentbydesign.slab_diamond":"Diamond Slab",
+  "block.absentbydesign.slab_emerald":"Emerald Slab",
+  "block.absentbydesign.wall_emerald":"Emerald  Wall",
+  "block.absentbydesign.stairs_emerald":"Emerald Stairs",
+  "block.absentbydesign.stairs_lapis":"Lapis Stairs",
+  "block.absentbydesign.slab_lapis":"Lapis Slab",
+  "block.absentbydesign.wall_lapis":"Lapis Wall",
+	
   "block.absentbydesign.stairs_honeycomb":"Honeycomb Stairs",
   "block.absentbydesign.slab_honeycomb":"Honeycomb Slab",
   "block.absentbydesign.wall_honeycomb":"Honeycomb Wall",

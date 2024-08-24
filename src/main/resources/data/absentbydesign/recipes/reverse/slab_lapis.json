@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "absentbydesign:slab_lapis"
+    }
+  },
+  "result": {
+    "item": "minecraft:lapis_block",
+    "count": 1
+  }
+}

@@ -1,6 +1,14 @@
 {
-	"replace": false,
+	"replace": false, 
 	"values": [
+  "absentbydesign:wall_netherite",
+  "absentbydesign:wall_bone",
+  "absentbydesign:wall_iron",
+  
+	
+  "absentbydesign:wall_emerald",
+  "absentbydesign:wall_diamond",
+  "absentbydesign:wall_lapis",
   "absentbydesign:wall_honeycomb",
 	
   "absentbydesign:wall_packed_ice",

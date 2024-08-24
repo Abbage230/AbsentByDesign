@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "absentbydesign:slab_netherite"
+    }
+  },
+  "result": {
+    "item": "minecraft:netherite_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,9 @@
+  
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:diamond_block"
+  },
+  "result": "absentbydesign:slab_diamond_block",
+  "count": 2
+}

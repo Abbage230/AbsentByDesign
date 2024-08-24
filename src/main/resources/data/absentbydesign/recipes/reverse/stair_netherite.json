@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "group": "gold",
+  "ingredient": {
+    "item": "absentbydesign:stairs_netherite"
+  },
+  "result": "minecraft:netherite_block"
+}

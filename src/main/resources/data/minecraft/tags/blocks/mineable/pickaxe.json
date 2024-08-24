@@ -1,6 +1,15 @@
 {
   "replace": false,
   "values": [
+  "absentbydesign:wall_iron",
+  "absentbydesign:slab_iron",
+  "absentbydesign:stairs_iron",
+  "absentbydesign:slab_netherite",
+  "absentbydesign:stairs_netherite",
+  "absentbydesign:wall_netherite",
+  "absentbydesign:stairs_bone",
+  "absentbydesign:slab_bone",
+  "absentbydesign:wall_bone",
   "absentbydesign:stairs_honeycomb",
   "absentbydesign:wall_honeycomb",
   "absentbydesign:slab_honeycomb",
