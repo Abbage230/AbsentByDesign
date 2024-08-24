@@ -1,7 +1,7 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "minecraft:terracotta_green"
+    "item": "minecraft:green_terracotta"
   },
   "result": "absentbydesign:wall_terracotta_green",
   "count": 1

@@ -1,7 +1,7 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "minecraft:wool_white"
+    "item": "minecraft:white_wool"
   },
   "result": "absentbydesign:wall_wool_white",
   "count": 1

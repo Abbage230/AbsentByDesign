@@ -1,6 +1,15 @@
 {
   "replace": false,
   "values": [
+  "absentbydesign:stairs_raw_copper",
+  "absentbydesign:stairs_raw_gold",
+  "absentbydesign:stairs_raw_iron",
+  "absentbydesign:slab_raw_copper",
+  "absentbydesign:slab_raw_iron",
+  "absentbydesign:slab_raw_gold",
+  "absentbydesign:wall_raw_copper",
+  "absentbydesign:wall_raw_gold",
+  "absentbydesign:wall_raw_iron",
   "absentbydesign:wall_iron",
   "absentbydesign:slab_iron",
   "absentbydesign:stairs_iron",

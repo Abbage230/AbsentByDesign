@@ -1,6 +1,12 @@
 {
   "replace": false,
   "values": [
+  "absentbydesign:slab_raw_copper",
+  "absentbydesign:slab_raw_iron",
+  "absentbydesign:slab_raw_gold",
+  
+  
+  
   "absentbydesign:slab_netherite",
   "absentbydesign:slab_iron",
 

@@ -1,6 +1,12 @@
 {
 	"replace": false, 
 	"values": [
+  "absentbydesign:wall_raw_copper",
+  "absentbydesign:wall_raw_gold",
+  "absentbydesign:wall_raw_iron",
+  
+  
+	
   "absentbydesign:wall_netherite",
   "absentbydesign:wall_bone",
   "absentbydesign:wall_iron",

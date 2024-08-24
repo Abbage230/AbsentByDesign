@@ -253,6 +253,9 @@ public class AbsentRegistry {
       reg.register("slab_bone", createSlab(Block.Properties.of(), Blocks.BONE_BLOCK));
       reg.register("slab_netherite", createSlab(Block.Properties.of(), Blocks.NETHERITE_BLOCK));
       reg.register("slab_iron", createSlab(Block.Properties.of(), Blocks.IRON_BLOCK));
+      reg.register("slab_raw_iron", createSlab(Block.Properties.of(), Blocks.RAW_IRON_BLOCK));
+      reg.register("slab_raw_gold", createSlab(Block.Properties.of(), Blocks.RAW_GOLD_BLOCK));
+      reg.register("slab_raw_copper", createSlab(Block.Properties.of(), Blocks.RAW_COPPER_BLOCK));
       //
       //                STAIRS
       //
@@ -392,6 +395,9 @@ public class AbsentRegistry {
       reg.register("stairs_bone", createStair(Block.Properties.of(), Blocks.BONE_BLOCK));
       reg.register("stairs_netherite", createStair(Block.Properties.of(), Blocks.NETHERITE_BLOCK));
       reg.register("stairs_iron", createStair(Block.Properties.of(), Blocks.IRON_BLOCK));
+      reg.register("stairs_raw_iron", createStair(Block.Properties.of(), Blocks.RAW_IRON_BLOCK));
+      reg.register("stairs_raw_gold", createStair(Block.Properties.of(), Blocks.RAW_GOLD_BLOCK));
+      reg.register("stairs_raw_copper", createStair(Block.Properties.of(), Blocks.RAW_COPPER_BLOCK));
       //
       //                WALLS
       //
@@ -556,6 +562,9 @@ public class AbsentRegistry {
       reg.register("wall_bone", createWall(Block.Properties.of(), Blocks.BONE_BLOCK));
       reg.register("wall_netherite", createWall(Block.Properties.of(), Blocks.NETHERITE_BLOCK));
       reg.register("wall_iron", createWall(Block.Properties.of(), Blocks.IRON_BLOCK));
+      reg.register("wall_raw_iron", createWall(Block.Properties.of(), Blocks.RAW_IRON_BLOCK));
+      reg.register("wall_raw_gold", createWall(Block.Properties.of(), Blocks.RAW_GOLD_BLOCK));
+      reg.register("wall_raw_copper", createWall(Block.Properties.of(), Blocks.RAW_COPPER_BLOCK));
       //
       //                GATE
       //

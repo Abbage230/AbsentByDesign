@@ -4,6 +4,6 @@
   "ingredient": {
     "item": "minecraft:dripstone_block"
   },
-  "result": "absentbydesign:slab_dripstone_block",
+  "result": "absentbydesign:slab_dripstone",
   "count": 2
 }
