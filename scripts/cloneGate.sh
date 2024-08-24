@@ -9,7 +9,7 @@ echo "Useage: ./_.sh <dest> <texture>"
 dest=$1
 texture=$2
 newblock="gate_${dest}"
-original="nether_bricks"
+original="bricks"
 seed="gate_${original}"
 
 modid="absentbydesign"
@@ -42,7 +42,8 @@ sed -i -e "s/${original}/${texture}/g" "${folder}"/models/block/"${newblock}"_op
 sed -i -e "s/${original}/${texture}/g" "${folder}"/models/block/"${newblock}"_wall.json
 sed -i -e "s/${original}/${texture}/g" "${folder}"/models/block/"${newblock}"_wall_open.json
 
-echo "  \"block.absentbydesign.${newblock}\":\"lang Gate\",   " 
-echo "  \"absentbydesign:${newblock}\",     to the blocks/fence_gates.json data tag"  
+echo "    \"block.absentbydesign.${newblock}\":\"lang Gate\",   " 
+echo "    \"absentbydesign:${newblock}\","  
+echo "     to the blocks/fence_gates.json data tag"  
 
 echo "Files written"

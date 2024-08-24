@@ -6,14 +6,14 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:mud_bricks"
+      "item": "minecraft:blackstone"
     },
     "-": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "absentbydesign:gate_mud_bricks",
+    "item": "absentbydesign:gate_blackstone",
     "count": 1
   }
 }

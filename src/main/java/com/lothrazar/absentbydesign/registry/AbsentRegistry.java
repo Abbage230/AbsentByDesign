@@ -17,6 +17,7 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -558,7 +559,7 @@ public class AbsentRegistry {
       //
       //                GATE
       //
-      WoodType def = WoodType.MANGROVE;
+      WoodType def = WoodType.MANGROVE; // no important effects
       reg.register("gate_nether_bricks", createGate(Blocks.NETHER_BRICKS, Block.Properties.of(), def));
       reg.register("gate_red_nether_bricks", createGate(Blocks.RED_NETHER_BRICKS, Block.Properties.of(), def));
       reg.register("gate_quartz", createGate(Blocks.QUARTZ_BLOCK, Block.Properties.of(), def));
@@ -572,32 +573,39 @@ public class AbsentRegistry {
       reg.register("gate_prismarine_dark", createGate(Blocks.DARK_PRISMARINE, Block.Properties.of(), def));
       reg.register("gate_purpur", createGate(Blocks.PURPUR_BLOCK, Block.Properties.of(), def));
       reg.register("gate_mud_bricks", createGate(Blocks.MUD_BRICKS, Block.Properties.of(), def));
+      reg.register("gate_cobblestone", createGate(Blocks.COBBLESTONE, Block.Properties.of(), def));
+      reg.register("gate_stone", createGate(Blocks.STONE, Block.Properties.of(), def));
+      reg.register("gate_blackstone", createGate(Blocks.BLACKSTONE, Block.Properties.of(), def));
+      reg.register("gate_sandstone", createGate(Blocks.SANDSTONE, Block.Properties.of(), def));
+      reg.register("gate_red_sandstone", createGate(Blocks.RED_SANDSTONE, Block.Properties.of(), def));
+      reg.register("gate_basalt", createGate(Blocks.BASALT, Block.Properties.of(), def));
       //
       //                TRAPDOOR
       //
-      BlockSetType openByHand = BlockSetType.STONE;
-      BlockSetType cannotOpenByHand = BlockSetType.IRON;
-      reg.register("trapdoor_stone", createTrap(Blocks.STONE, Block.Properties.of(), openByHand));
-      reg.register("trapdoor_granite", createTrap(Blocks.GRANITE, Block.Properties.of(), openByHand));
-      reg.register("trapdoor_andesite", createTrap(Blocks.ANDESITE, Block.Properties.of(), openByHand));
-      reg.register("trapdoor_diorite", createTrap(Blocks.DIORITE, Block.Properties.of(), openByHand));
-      reg.register("trapdoor_bricks", createTrap(Blocks.STONE, Block.Properties.of(), openByHand));
-      reg.register("trapdoor_stone_bricks", createTrap(Blocks.STONE_BRICKS, Block.Properties.of(), openByHand));
-      reg.register("trapdoor_blackstone", createTrap(Blocks.STONE_BRICKS, Block.Properties.of(), openByHand));
-      reg.register("trapdoor_blackstone_bricks", createTrap(Blocks.STONE_BRICKS, Block.Properties.of(), openByHand));
-      reg.register("trapdoor_basalt", createTrap(Blocks.STONE, Block.Properties.of(), openByHand));
-      reg.register("trapdoor_end_stone", createTrap(Blocks.STONE, Block.Properties.of(), openByHand));
-      reg.register("trapdoor_purpur", createTrap(Blocks.PURPUR_BLOCK, Block.Properties.of(), openByHand));
-      reg.register("trapdoor_quartz", createTrap(Blocks.QUARTZ_BLOCK, Block.Properties.of(), openByHand));
-      reg.register("trapdoor_quartz_bricks", createTrap(Blocks.QUARTZ_BRICKS, Block.Properties.of(), openByHand));
-      reg.register("trapdoor_mud_bricks", createTrap(Blocks.MUD_BRICKS, Block.Properties.of(), openByHand));
-      reg.register("trapdoor_amethyst", createTrap(Blocks.AMETHYST_BLOCK, Block.Properties.of(), openByHand));
-      reg.register("trapdoor_obsidian", createTrap(Blocks.OBSIDIAN, Block.Properties.of(), cannotOpenByHand));
-      reg.register("trapdoor_crying_obsidian", createTrap(Blocks.CRYING_OBSIDIAN, Block.Properties.of(), cannotOpenByHand));
-      reg.register("trapdoor_gold", createTrap(Blocks.GOLD_BLOCK, Block.Properties.of(), cannotOpenByHand));
-      reg.register("trapdoor_diamond", createTrap(Blocks.DIAMOND_BLOCK, Block.Properties.of(), cannotOpenByHand));
-      reg.register("trapdoor_lapis", createTrap(Blocks.DIAMOND_BLOCK, Block.Properties.of(), cannotOpenByHand));
-      reg.register("trapdoor_emerald", createTrap(Blocks.DIAMOND_BLOCK, Block.Properties.of(), cannotOpenByHand));
+      BlockSetType stoneType = BlockSetType.STONE;
+      BlockSetType ironType = BlockSetType.IRON;
+      var AMY = BlockSetType.register(new BlockSetType("amethyst", true, SoundType.AMETHYST, SoundEvents.AMETHYST_BLOCK_PLACE, SoundEvents.AMETHYST_BLOCK_CHIME, SoundEvents.AMETHYST_BLOCK_PLACE, SoundEvents.AMETHYST_BLOCK_CHIME, SoundEvents.METAL_PRESSURE_PLATE_CLICK_OFF, SoundEvents.METAL_PRESSURE_PLATE_CLICK_ON, SoundEvents.STONE_BUTTON_CLICK_OFF, SoundEvents.STONE_BUTTON_CLICK_ON));
+      reg.register("trapdoor_stone", createTrap(Blocks.STONE, Block.Properties.of(), stoneType));
+      reg.register("trapdoor_granite", createTrap(Blocks.GRANITE, Block.Properties.of(), stoneType));
+      reg.register("trapdoor_andesite", createTrap(Blocks.ANDESITE, Block.Properties.of(), stoneType));
+      reg.register("trapdoor_diorite", createTrap(Blocks.DIORITE, Block.Properties.of(), stoneType));
+      reg.register("trapdoor_bricks", createTrap(Blocks.STONE, Block.Properties.of(), stoneType));
+      reg.register("trapdoor_stone_bricks", createTrap(Blocks.STONE_BRICKS, Block.Properties.of(), stoneType));
+      reg.register("trapdoor_blackstone", createTrap(Blocks.STONE_BRICKS, Block.Properties.of(), stoneType));
+      reg.register("trapdoor_blackstone_bricks", createTrap(Blocks.STONE_BRICKS, Block.Properties.of(), stoneType));
+      reg.register("trapdoor_basalt", createTrap(Blocks.STONE, Block.Properties.of(), stoneType));
+      reg.register("trapdoor_end_stone", createTrap(Blocks.STONE, Block.Properties.of(), stoneType));
+      reg.register("trapdoor_purpur", createTrap(Blocks.PURPUR_BLOCK, Block.Properties.of(), stoneType));
+      reg.register("trapdoor_quartz", createTrap(Blocks.QUARTZ_BLOCK, Block.Properties.of(), stoneType));
+      reg.register("trapdoor_quartz_bricks", createTrap(Blocks.QUARTZ_BRICKS, Block.Properties.of(), stoneType));
+      reg.register("trapdoor_mud_bricks", createTrap(Blocks.MUD_BRICKS, Block.Properties.of(), stoneType));
+      reg.register("trapdoor_amethyst", createTrap(Blocks.AMETHYST_BLOCK, Block.Properties.of(), AMY));
+      reg.register("trapdoor_obsidian", createTrap(Blocks.OBSIDIAN, Block.Properties.of(), ironType));
+      reg.register("trapdoor_crying_obsidian", createTrap(Blocks.CRYING_OBSIDIAN, Block.Properties.of(), ironType));
+      reg.register("trapdoor_gold", createTrap(Blocks.GOLD_BLOCK, Block.Properties.of(), ironType));
+      reg.register("trapdoor_diamond", createTrap(Blocks.DIAMOND_BLOCK, Block.Properties.of(), ironType));
+      reg.register("trapdoor_lapis", createTrap(Blocks.DIAMOND_BLOCK, Block.Properties.of(), ironType));
+      reg.register("trapdoor_emerald", createTrap(Blocks.DIAMOND_BLOCK, Block.Properties.of(), ironType));
     });
   }
 

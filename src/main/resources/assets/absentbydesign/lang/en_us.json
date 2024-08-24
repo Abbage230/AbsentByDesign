@@ -1,6 +1,14 @@
 {
 	"itemGroup.absentbydesign": "Absent by Design",
 	
+  "block.absentbydesign.gate_basalt":"Basalt Gate",
+  "block.absentbydesign.gate_sandstone":"Sandstone Gate",
+  "block.absentbydesign.gate_red_sandstone":"Red Sandstone Gate",
+  "block.absentbydesign.gate_blackstone":"Blackstone Gate",
+  "block.absentbydesign.gate_stone":"Stone Gate",
+  "block.absentbydesign.gate_cobblestone":"Cobblestone Gate",
+  
+	
   "block.absentbydesign.trapdoor_diamond":"Diamond Trapdoor",
   "block.absentbydesign.trapdoor_lapis":"Lapis Trapdoor",
   "block.absentbydesign.trapdoor_emerald":"Emerald Trapdoor",

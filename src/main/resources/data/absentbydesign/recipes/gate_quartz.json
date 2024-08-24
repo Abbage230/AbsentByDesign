@@ -6,14 +6,14 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:quartz"
+      "item": "minecraft:quartz_block"
     },
     "-": {
-      "item": "minecraft:nether_brick"
+      "item": "minecraft:stick"
     }
   },
   "result": {
     "item": "absentbydesign:gate_quartz",
-    "count": 6
+    "count": 1
   }
 }

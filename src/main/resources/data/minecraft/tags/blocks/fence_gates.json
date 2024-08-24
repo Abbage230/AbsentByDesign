@@ -1,6 +1,14 @@
 {
   "replace": false,
   "values": [
+  "absentbydesign:gate_basalt",
+  
+    "absentbydesign:gate_sandstone",
+    "absentbydesign:gate_red_sandstone",
+    "absentbydesign:gate_blackstone",
+    "absentbydesign:gate_cobblesotne",
+    "absentbydesign:gate_stone",
+    
     "absentbydesign:gate_purpur",
     "absentbydesign:gate_prismarine_dark",
     "absentbydesign:gate_prismarine_brick",  
